@@ -1,0 +1,4 @@
+2020-02-18 19:25:22.9622 ERROR Log Error from values controller
+2020-02-18 19:25:23.0305 INFO Log Info from values controller
+2020-02-18 19:25:23.0305 DEBUG Log Debug from values controller
+2020-02-18 19:25:23.0346 WARN Log Warn from values controller

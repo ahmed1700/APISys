@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\CompanyEmployees\\CompanyEmployees.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\CompanyEmployees\\CompanyEmployees.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\CompanyEmployees\\CompanyEmployees.csproj",
+        "projectName": "CompanyEmployees",
+        "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\CompanyEmployees\\CompanyEmployees.csproj",
+        "packagesPath": "C:\\Users\\ITShare\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\CompanyEmployees\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ITShare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\LoggerServices\\LoggerServices.csproj": {
+                "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\LoggerServices\\LoggerServices.csproj"
+              },
+              "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\ITShare\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ITShare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\ITShare\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ITShare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\LoggerServices\\LoggerServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\LoggerServices\\LoggerServices.csproj",
+        "projectName": "LoggerServices",
+        "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\LoggerServices\\LoggerServices.csproj",
+        "packagesPath": "C:\\Users\\ITShare\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\LoggerServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ITShare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\ITShare\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ITShare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ITShare\\Downloads\\api_itshare_v2-master\\api_itshare_v2-master\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
